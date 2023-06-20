@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator-StrykerNETExample", "Calculator-StrykerNETExample\Calculator-StrykerNETExample.csproj", "{127BA61C-31B1-4EF9-B1F1-E411778EDFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator-StrykerNETExampleTests", "Calculator-StrykerNETExampleTests\Calculator-StrykerNETExampleTests.csproj", "{4396E667-ECF0-4757-8FCD-B9BD97C1919D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127BA61C-31B1-4EF9-B1F1-E411778EDFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127BA61C-31B1-4EF9-B1F1-E411778EDFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127BA61C-31B1-4EF9-B1F1-E411778EDFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127BA61C-31B1-4EF9-B1F1-E411778EDFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4396E667-ECF0-4757-8FCD-B9BD97C1919D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4396E667-ECF0-4757-8FCD-B9BD97C1919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4396E667-ECF0-4757-8FCD-B9BD97C1919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4396E667-ECF0-4757-8FCD-B9BD97C1919D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18866ABA-EB77-4DAC-BF85-28C4378DF925}
+	EndGlobalSection
+EndGlobal
