@@ -40,6 +40,9 @@ namespace Calculator_StrykerNETExampleTests
 
         [Theory]
         [InlineData(1, 1, 1)]
+        [InlineData(1, 0, 0)]
+        [InlineData(2, 3, 6)]
+        [InlineData(2, 5, 10)]
         public void Multiply_WhenValuesAreMultiplied_ThenCorrectResponseIsReturned(int value1, int value2, int expectedResult)
         {
             // arrange
@@ -53,6 +56,8 @@ namespace Calculator_StrykerNETExampleTests
 
         [Theory]
         [InlineData(1, 1, 1, 0)]
+        [InlineData(10, 2, 5, 0)]
+        [InlineData(25, 4, 6, 1)]
         public void Divide_WhenValuesAreDivided_ThenCorrectResponseIsReturned(int value1, int value2, int expectedResult, int expectedRemainder)
         {
             // arrange

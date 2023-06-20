@@ -19,12 +19,8 @@
 
         public (int Result, int Remainder) Divide(int value1, int value2)
         {
-            if (value2 == 0)
-            {
-                throw new DivideByZeroException();
-            }
             var result = value1 / value2;
-            var remainder = result % value2;
+            var remainder = value1 % value2;
             return (result, remainder);
         }
     }
